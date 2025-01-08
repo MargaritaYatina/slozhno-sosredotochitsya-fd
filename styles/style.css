@@ -1,4 +1,3 @@
-
 .page {
   color: var(--text-color, #353430);
   font-family: var(--font-family, 'IBM Plex Mono', monospace);
@@ -9,5 +8,29 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  
 }
+.header{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+} 
+
+.header__theme-menu-list{
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  margin-block-start: var(--nav-bar-margin-top);
+  border-inline-end: var(--nav-bar-margin-right);
+  gap: 10px;
+  background-color: red;
+} 
+
+/* .header__theme-menu-item{
+  width: 70px;
+  height: 26px;
+} */
+
+.header-paragraph{
+  margin-block-start: var(--paragraph-margin);
+}
+
