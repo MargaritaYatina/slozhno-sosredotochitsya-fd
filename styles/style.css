@@ -12,18 +12,25 @@
 .header{
   display: flex;
   flex-direction: column;
-}
+  margin-bottom: 40px;
+} 
+
 .header__theme-menu-list{
   display: flex;
   align-items: flex-end;
   flex-direction: column;
   margin-block-start: var(--nav-bar-margin-top);
-  border-inline-end: var(--nav-bar-margin-right);/*!!!IT DOESN't WORK*/
+  border-inline-end: var(--nav-bar-margin-right);
   gap: 10px;
-  list-style-type: none;
   background-color: red;
-}
-.header__theme-menu-item{
+} 
+
+/* .header__theme-menu-item{
   width: 70px;
   height: 26px;
+} */
+
+.header-paragraph{
+  margin-block-start: var(--paragraph-margin);
 }
+
