@@ -5,17 +5,13 @@
 */
 
 :root.theme-light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
-  --background-main-color: #FFF1F7;
-  --background-accent-color: #FF8DCB;
+  --background-main-color: #fff1f7;
+  --background-accent-color: #ff8dcb;
   --main-text-color: #353430;
   --accent-text-color: #353430;
-  --text-shadow: #FFC2E6;
+  --text-shadow: #ffc2e6;
   --hover-opacity: #32312d66;
-  --decor-color:#353430;
+  --decor-color: #353430;
   --background-image: url(../images/cover-image-light.png);
 }
 
@@ -24,15 +20,14 @@
 }
 
 @media (prefers-color-scheme: light) {
-  
   :root {
-    --background-main-color: #FFF1F7;
-    --background-accent-color: #FF8DCB;
+    --background-main-color: #fff1f7;
+    --background-accent-color: #ff8dcb;
     --main-text-color: #353430;
     --accent-text-color: #353430;
-    --text-shadow:#FFC2E6;
+    --text-shadow: #ffc2e6;
     --hover-opacity: #32312d66;
-    --decor-color:#353430;
+    --decor-color: #353430;
     --background-image: url(../images/cover-image-light.png);
   }
 
