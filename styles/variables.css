@@ -1,20 +1,9 @@
 :root{
-  --text-color: #353430;
-  --font-family: IBM Plex Mono, monospace ;
-  --font-size: 18px;
-  --line-height: 23.4px;
-  --background-color: #FFF1F7;
-  --nav-bar-margin-top: 75px;
-  --nav-bar-margin-right: 10px;
-  --paragraph-margin: 55px;
 
+  --font-family: "IBM Plex Mono", monospace ;
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
 
-  /* --text-color: #353430;
-  --font-family: IBM Plex Mono, monospace ;
-  --font-size: 18px;
-  --line-height: 23.4px;
-  --background-color: #FFF1F7;
- */
 
 }
 
