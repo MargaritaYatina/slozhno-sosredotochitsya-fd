@@ -5,14 +5,14 @@
 */
 
 :root.theme-dark {
-  --backgroundg-main-color: #000028;
+  --background-main-color: #000028;
   --background-accent-color: #ff0070;
   --main-text-color: #f1b2ce;
   --accent-text-color: #000028;
   --hover-opacity: #ff007066;
   --decor-color: #ff0070;
   --text-shadow: #db00ff;
-  --backgroud-image: url(../images/cover-image-dark.png);
+  --background-image: url(../images/cover-image-dark.png);
 }
 
 .theme-dark .header-rec {
