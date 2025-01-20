@@ -1,10 +1,6 @@
-:root{
-
-  --font-family: "IBM Plex Mono", monospace ;
+:root {
+  --font-family: "IBM Plex Mono", monospace;
   --font-weight-normal: 400;
   --font-weight-bold: 700;
-
-
 }
-
 
