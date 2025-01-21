@@ -101,7 +101,6 @@
   pointer-events: none;
 }
 
-
 .header-rec {
   color: var(--decor-color);
   font-size: 1.15em;
@@ -392,5 +391,3 @@
     min-block-size: 768px;
   }
 }
-
-
