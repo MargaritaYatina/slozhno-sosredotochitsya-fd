@@ -7,7 +7,6 @@
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  
 }
 
 .header {
@@ -18,8 +17,6 @@
   gap: 1px;
   min-block-size: 668px;
   block-size: 100vh;
-  background-color: yellow;
-
 }
 
 .decorated-zone::after {
@@ -151,7 +148,7 @@
   font-weight: var(--font-weight-bold);
   font-size: 18px;
   line-height: 23.4px;
-  background-color: var(--background-accent-color); 
+  background-color: var(--background-accent-color);
 }
 
 .main {
@@ -160,7 +157,6 @@
   gap: 50px;
   padding-left: 10px;
   padding-right: 10px;
-  background-color:blue;
 }
 
 .main-section {
@@ -233,14 +229,11 @@
   align-items: center;
   min-block-size: 667px;
   block-size: 100vh;
-  background-color: green;
 }
 
-
-
-@media (width < 768px){
-  .header{
-  margin-bottom: 40px;
+@media (max-width: 767px) {
+  .header {
+    margin-bottom: 40px;
   }
 }
 
@@ -378,7 +371,7 @@
   }
 
   .content .section-title {
-    max-inline-size: 320px;
+    max-inline-size: 316px;
   }
 
   .content {
@@ -398,8 +391,19 @@
     grid-template-rows: 260px 315px 433px;
   }
 
+  .article-paragraph {
+    margin-left: -7px;
+  }
+
+  .title-for-paragraph {
+    margin-left: -7px;
+  }
+
+  .article {
+    margin-left: 1px;
+  }
+
   .footer {
     min-block-size: 768px;
   }
 }
-
